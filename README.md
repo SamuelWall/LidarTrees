@@ -15,6 +15,10 @@ environment. Ordinarily, biomass of forests is estimated through tedious measure
 individual trees with measuring tapes and approximating the entire forest using a smaller sample 
 size. By developing a way to autonomize these measurements, we hope to expediate the process 
 of forest sampling while trying to improve the accuracy of the measurements taken. Some 
-research questions that we will consider are the accuracy of standard RGB images against RGBD images in estimating these values, how different machine learning models to be used and trained compare to other ways of taking measurements, and the capability of an algorithm trained 
+research questions that we will consider are the accuracy of standard RGB images against RGB-D images in estimating these values, how different machine learning models to be used and trained compare to other ways of taking measurements, and the capability of an algorithm trained 
 on artificial images to classify real world images
 
+The current approach to this algorithm consists of taking an input RGB image, segmenting it with a form of Scipy's SLIC algorithm, classifying the respective segments as a part of a trunk or not, combing segments that consist of the same trunk (superpixels) and measuring the width of these segments using either real depth measurements via LIDAR images (RGB-D) or artificial depth measurements made by a machine learning algorithm.
+
+### Pipeline of Algorithm Simplified
+Input Image &rarr SLIC Segmentation &rarr Classification of Trunks &rarr Combination of Superpixels &rarr Measurement of Trunk Width
