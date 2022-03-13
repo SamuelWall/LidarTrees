@@ -21,4 +21,4 @@ on artificial images to classify real world images
 The current approach to this algorithm consists of taking an input RGB image, segmenting it with a form of Scipy's SLIC algorithm, classifying the respective segments as a part of a trunk or not, combing segments that consist of the same trunk (superpixels) and measuring the width of these segments using either real depth measurements via LIDAR images (RGB-D) or artificial depth measurements made by a machine learning algorithm.
 
 ### Pipeline of Algorithm Simplified
-Input Image &rarr SLIC Segmentation &rarr Classification of Trunks &rarr Combination of Superpixels &rarr Measurement of Trunk Width
+Input Image &#8594; SLIC Segmentation &rarr Classification of Trunks &rarr Combination of Superpixels &rarr Measurement of Trunk Width
