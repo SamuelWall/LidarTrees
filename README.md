@@ -1,5 +1,6 @@
 ## Lidar Trees
 ### All code can be found within the Jupyter Notebook file [here](Lidar_Depth2.ipynb)
+Research Poster from the CCNY ORCA Symposium can be viewed [here](Orca Poster.pdf)
 Renders can be found [here](https://drive.google.com/drive/folders/1Xu9fa5HYFKRKH1WIIbnasEz7e1svVwG-?usp=sharing)
 
 Research in this repository is by Samuel Wolnerman, with mentorship and guidance from Professor Michael Grossberg and Professor Nicholas Steiner
