@@ -1,5 +1,5 @@
 ## Lidar Trees
-### All code can be found within the Jupyter Notebook file Lidar_Depth2.ipynb
+### All code can be found within the Jupyter Notebook file (here)[docs/Lidar_Depth2.ipynb]
 Renders can be found [here](https://drive.google.com/drive/folders/1Xu9fa5HYFKRKH1WIIbnasEz7e1svVwG-?usp=sharing)
 
 Research in this repository is by Samuel Wolnerman, with mentorship and guidance from Professor Michael Grossberg and Professor Nicholas Steiner
